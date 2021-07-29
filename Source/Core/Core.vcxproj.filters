@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{a2b1e8fe-5f60-4bb3-a5ad-769df8251d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{01ed25ca-93a2-403c-b2a2-359601be9553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Diagnostics">
+      <UniqueIdentifier>{74111c49-9aa6-44d2-a9bb-c64891d3420a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Diagnostics">
+      <UniqueIdentifier>{e9142c57-fb65-433e-9890-649c4f8f1da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\Diagnostics\CoreLog.h">
+      <Filter>Public\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="Private\PCH.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\Diagnostics\LogVerbosity.h">
+      <Filter>Public\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\PrimitiveTypes.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Private\PCH.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\CoreLog.cpp">
+      <Filter>Private\Diagnostics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
