@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{1f9cc936-4978-42ee-ac6a-3291b8cf0ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{9200203d-f6ad-4252-8f3b-a83823eac9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\MDL">
+      <UniqueIdentifier>{d8ef3e8e-e671-400e-abdb-d3a4aa175d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\MDL">
+      <UniqueIdentifier>{648c957c-dd8c-4955-a2ec-8483715fabc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Private\PCH.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\MDL\MDLImporter.h">
+      <Filter>Public\MDL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Private\PCH.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\MDL\MDLImporter.cpp">
+      <Filter>Private\MDL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

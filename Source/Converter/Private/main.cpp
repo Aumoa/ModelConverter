@@ -5,5 +5,8 @@
 int main()
 {
 	Log(Info, Converter, L"Application started!");
+
+	MDLImporter Importer;
+
 	return 0;
 }

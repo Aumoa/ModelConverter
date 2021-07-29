@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Converter", "Source\Convert
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Source\Core\Core.vcxproj", "{F65CB159-B372-4960-ADB9-7DE2E45F5963}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MDLFormat", "Source\MDLFormat\MDLFormat.vcxproj", "{E75C24B8-14F9-4FC2-BA55-B083E921BD11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F65CB159-B372-4960-ADB9-7DE2E45F5963}.Release|x64.Build.0 = Release|x64
 		{F65CB159-B372-4960-ADB9-7DE2E45F5963}.Release|x86.ActiveCfg = Release|Win32
 		{F65CB159-B372-4960-ADB9-7DE2E45F5963}.Release|x86.Build.0 = Release|Win32
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Debug|x64.ActiveCfg = Debug|x64
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Debug|x64.Build.0 = Debug|x64
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Debug|x86.ActiveCfg = Debug|Win32
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Debug|x86.Build.0 = Debug|Win32
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Release|x64.ActiveCfg = Release|x64
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Release|x64.Build.0 = Release|x64
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Release|x86.ActiveCfg = Release|Win32
+		{E75C24B8-14F9-4FC2-BA55-B083E921BD11}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
